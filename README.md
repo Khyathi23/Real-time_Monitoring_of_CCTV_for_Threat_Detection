@@ -2,7 +2,7 @@
 
 This project is an advanced computer vision system designed to detect anomalies (such as violence/fights) and weapons in both pre-recorded videos and live camera streams. It leverages PyTorch-based 3D/2D CNNs for temporal action detection and Ultralytics YOLOv11 for real-time object detection.
 
-## 🌟 Features
+## Features
 
 ### 1. Video Anomaly (Violence) Detection
 - **Dual-Model Architecture**: Uses a 2D CNN (`human_detector.pt`) to gate processing (only checks for violence if a human is present) and a 3D CNN (`video_violence_detector.pt`) to analyze temporal sequences of 16 frames.

@@ -15,6 +15,9 @@ This project is an advanced computer vision system designed to detect anomalies 
 - **Video File Analysis**: Analyzes pre-recorded videos, drawing bounding boxes and labels around detected weapons (`weapon_detection.py`).
 - **Live Alert System & Recording**: Monitors live camera feeds. If a weapon is detected consistently (e.g., 5-7 consecutive frames), it triggers an alert, records a video snippet including pre-roll footage, and logs the event to a CSV file (`live_weapon_detection_recorder.py`).
 
+### 3. Real-Time Performance Optimization
+- **Optimized Video Processing:** Uses sliding-window inference, asynchronous frame handling, and consecutive-frame verification for reliable incident detection with minimal latency.
+
 ## 📁 Project Structure
 
 ```text

@@ -18,7 +18,7 @@ This project is an advanced computer vision system designed to detect anomalies 
 ### 3. Real-Time Performance Optimization
 - **Optimized Video Processing:** Uses sliding-window inference, asynchronous frame handling, and consecutive-frame verification for reliable incident detection with minimal latency.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ├── models/
